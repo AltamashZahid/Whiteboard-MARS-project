@@ -94,19 +94,9 @@ Whiteboard is a sophisticated collaborative platform designed for real-time digi
 
 - **Backend**: 
     - Node.js with Express
-    - Socket.io for WebSocket communication
+    - Socket.io(live blocks) for WebSocket communication
     - RESTful API architecture
-    - JWT for authentication
-
-- **Data Storage**: 
-    - MongoDB for user and session metadata
-    - Redis for caching and real-time state management
-    - AWS S3 for asset storage
-
-- **DevOps**:
-    - Docker for containerization
-    - GitHub Actions for CI/CD
-    - AWS/Azure/GCP for hosting
+    - Clerk for authentication
 
 ## Architecture
 
@@ -138,19 +128,3 @@ We welcome contributions to the Whiteboard project! Please follow these steps:
 - [ ] Template marketplace
 - [ ] Offline mode with synchronization
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact & Support
-
-- **Issues**: Please report bugs or feature requests through our [issue tracker](https://github.com/yourusername/whiteboard/issues)
-- **Email**: support@whiteboard-app.com
-- **Twitter**: [@WhiteboardApp](https://twitter.com/whiteboardapp)
-- **Documentation**: [docs.whiteboard-app.com](https://docs.whiteboard-app.com)
-
-## Acknowledgments
-
-- The amazing open-source community
-- Our dedicated team of contributors
-- All users who provide valuable feedback
