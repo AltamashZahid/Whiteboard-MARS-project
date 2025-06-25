@@ -50,7 +50,8 @@ Whiteboard is a sophisticated collaborative platform designed for real-time digi
 
 2. Install dependencies
      ```bash
-     npm install
+     npm install --legacy-peerdeps
+     npx convex dev
      ```
 
 3. Configure environment variables
